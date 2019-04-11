@@ -1,5 +1,5 @@
 # Custom Maxlength
-A Simple custom maxlength directive for input fields in Ionic that allows user to enter maximum number of characters as given. In Ionic, maxlength property of <ion-input> does not work properly on Android devices, it allows user to enter characters than the number of charachers are allowed.
+A Simple custom maxlength directive for input fields in Ionic that allows user to enter maximum number of characters as given. In Ionic, maxlength property of ion-input does not work properly on Android devices, it allows user to enter characters than the number of charachers are allowed.
 
 It uses this custom directive only for Android platform and uses the native maxlength property for iOS.
 
@@ -23,7 +23,7 @@ import {CustomMaxlengthModule} from 'custom-maxlength';
 })
 ```
 
-**Example-1 (<ion-input type="text">)**
+**Example-1 (ion-input type="text")**
 ```
 <ion-input type="text"
             value=""
@@ -35,7 +35,7 @@ import {CustomMaxlengthModule} from 'custom-maxlength';
 </ion-input>
 ```
 
-**Example-2 (<ion-textarea>)**
+**Example-2 (ion-textarea)**
 ```
 <ion-textarea formControlName="description"
               custom-maxlength
