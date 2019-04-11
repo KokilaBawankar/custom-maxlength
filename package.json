@@ -1,0 +1,39 @@
+{
+  "name": "custom-maxlength",
+  "version": "0.0.1",
+  "description": "A Simple custom maxlength directive for input fields that allows user to enter maximum number of characters as given.",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "ngc": "ngc",
+    "build": "npm run ngc",
+    "publishPackage": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KokilaBawankar/custom-maxlength.git"
+  },
+  "keywords": [
+    "Angular 7",
+    "Ionic 3"
+  ],
+  "author": "Kokila",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/common": "7.2.12",
+    "@angular/compiler": "7.2.12",
+    "@angular/compiler-cli": "7.2.12",
+    "@angular/core": "7.2.12",
+    "@angular/forms": "^7.2.12",
+    "@angular/platform-browser": "7.2.12",
+    "@angular/platform-browser-dynamic": "7.2.12",
+    "@types/node": "^9.4.6",
+    "ionic-angular": "3.9.2",
+    "rxjs": "6.4.0",
+    "typescript": "3.2.4",
+    "zone.js": "0.8.29"
+  }
+}
