@@ -47,4 +47,4 @@ import {CustomMaxlengthModule} from 'custom-maxlength';
 - **custom-maxlength** is the name of directive.
 - Specify maximum number of characters allowed using **charMaxLength** property
 
-**Note :-** Do not forget to add **ngModel** on the ion-input and ion-textarea other directive won't work.
+**Note :-** Do not forget to add **ngModel** on the ion-input and ion-textarea otherwise directive won't work.

@@ -35,5 +35,10 @@
     "rxjs": "6.4.0",
     "typescript": "3.2.4",
     "zone.js": "0.8.29"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/KokilaBawankar/custom-maxlength/issues"
+  },
+  "homepage": "https://github.com/KokilaBawankar/custom-maxlength#readme",
+  "dependencies": {}
 }
