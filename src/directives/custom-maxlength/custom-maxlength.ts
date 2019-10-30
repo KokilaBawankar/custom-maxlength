@@ -1,6 +1,7 @@
 import {Directive, EventEmitter, HostListener, Input, Output} from '@angular/core';
-import {Platform} from "ionic-angular";
-
+import {
+    Platform
+} from '@ionic/angular';
 @Directive({
     selector: '[custom-maxlength]'
 })
