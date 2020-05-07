@@ -10,7 +10,7 @@
   "scripts": {
     "ngc": "ngc",
     "build": "npm run ngc",
-    "publishPackage": "npm run build"
+    "publishPackage": "npm run build && npm publish"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
     "@angular/forms": "^8.2.6",
     "@angular/platform-browser": "^8.2.6",
     "@angular/platform-browser-dynamic": "^8.2.6",
+    "@angular/router": "^8.2.6",
     "@types/node": "^12.7.5",
     "@ionic/angular": "^4.10.0",
     "rxjs": "^6.5.3",
