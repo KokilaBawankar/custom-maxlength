@@ -17,7 +17,7 @@ import {CustomMaxlengthModule} from 'custom-maxlength';
 @NgModule({
   imports: [
       ...,
-      AngularFileDragDropModule,
+      CustomMaxlengthModule,
       ...
   ]
 })
