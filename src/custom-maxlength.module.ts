@@ -1,5 +1,5 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
-import { IonicModule } from 'ionic-angular';
+import { IonicModule } from '@ionic/angular';
 import {CustomMaxlengthDirective} from "./directives/custom-maxlength/custom-maxlength";
 
 @NgModule({
