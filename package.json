@@ -1,7 +1,7 @@
 {
   "name": "custom-maxlength",
-  "version": "0.0.3",
-  "description": "A Simple custom maxlength directive for input fields that allows user to enter maximum number of characters as given.",
+  "version": "0.0.4",
+  "description": "A Simple custom maxlength directive in Angular 8 and Ionic 4 for input fields that allows user to enter maximum number of characters as given.",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "files": [
@@ -17,8 +17,8 @@
     "url": "git+https://github.com/KokilaBawankar/custom-maxlength.git"
   },
   "keywords": [
-    "Angular 7",
-    "Ionic 3"
+    "Angular 8",
+    "Ionic 4"
   ],
   "author": "Kokila",
   "license": "ISC",
